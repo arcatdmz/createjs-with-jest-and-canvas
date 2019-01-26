@@ -9,7 +9,12 @@
     "type": "git",
     "url": "git+https://github.com/arcatdmz/createjs-with-jest-and-canvas.git"
   },
-  "keywords": ["createjs", "jest", "canvas", "jsdom"],
+  "keywords": [
+    "createjs",
+    "jest",
+    "canvas",
+    "jsdom"
+  ],
   "author": "Jun Kato",
   "license": "MIT",
   "bugs": {
@@ -19,5 +24,8 @@
   "devDependencies": {
     "jest": "^24.0.0",
     "jest-environment-jsdom-with-canvas": "git+https://github.com/arcatdmz/jest-environment-jsdom-with-canvas.git"
+  },
+  "dependencies": {
+    "@createjs/easeljs": "^2.0.0-beta.4"
   }
 }
