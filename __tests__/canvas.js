@@ -17,6 +17,14 @@
     expect(url.length).toBeGreaterThan("image/png;base64,".length);
   });
 
+  test("get context", () => {
+    let ctx = null;
+    try {
+      ctx = canvas.getContext("2d")
+    } catch (e) {}
+    expect(ctx).not.toBeNull();
+  });
+
   test("draw something", () => {
     const before = canvas.toDataURL();
     const ctx = canvas.getContext("2d");
