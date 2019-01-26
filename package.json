@@ -1,0 +1,23 @@
+{
+  "name": "createjs-with-jest-and-canvas",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcatdmz/createjs-with-jest-and-canvas.git"
+  },
+  "keywords": ["createjs", "jest", "canvas", "jsdom"],
+  "author": "Jun Kato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arcatdmz/createjs-with-jest-and-canvas/issues"
+  },
+  "homepage": "https://github.com/arcatdmz/createjs-with-jest-and-canvas#readme",
+  "devDependencies": {
+    "jest": "^24.0.0",
+    "jest-environment-jsdom-with-canvas": "git+https://github.com/arcatdmz/jest-environment-jsdom-with-canvas.git"
+  }
+}
